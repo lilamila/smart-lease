@@ -19,7 +19,7 @@ Leafer's Smart Lease is created by [Marie Leaf](https://twitter.com/mariesleaf).
 ### Roadmap
 
 **Front-end:**  
-1. Mobile first
+1. Web Responsive
 
 
 **Back-end (Contracts):**  
