@@ -15,7 +15,7 @@ Leafer's Smart Lease is created by [Marie Leaf](https://twitter.com/mariesleaf).
 ### Dev Instructions
 1. Download and update Meteor
 2. Download web3 packages from [frozeman](https://github.com/frozeman/simple-dapp-example/tree/master/app/.meteor)
-3. 
+
 ### Roadmap
 
 **Front-end:**  
@@ -64,4 +64,3 @@ Leafer's Smart Lease is created by [Marie Leaf](https://twitter.com/mariesleaf).
 [Dapps with Meteor](https://github.com/ethereum/wiki/wiki/Dapp-using-Meteor)  
 [Web3 JS API](https://github.com/ethereum/wiki/wiki/JavaScript-API)  
 [Iron Router](https://github.com/iron-meteor/iron-router)  
-[TODO: check out Tradle for Identity](https://github.com/tradle/about/wiki/Identity-on-Ethereum)  
