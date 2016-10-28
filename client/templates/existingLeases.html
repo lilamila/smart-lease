@@ -1,0 +1,21 @@
+<template name="existingLeases">
+<div class="container">
+  <ul>
+  {{#each leases}}
+  	<p>Lease: </p>
+  	{{> lease}}
+  	<p>From: {{from}}</p>
+  	<p>Value: {{value}}</p>
+  	<p>Block: {{blockNumber}}</p>
+  {{/each}}
+  Testing existing leases
+  </ul>
+</div>
+</template>
+
+<template name="lease">
+<div class="container">
+	<li>{{physAddress}}</li>
+</div>
+</template>
+

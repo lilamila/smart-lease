@@ -1,0 +1,9 @@
+<template name="layout-main">
+	{{> yield "header"}}
+	<div class="dapp-flex-content">
+		{{> yield "aside"}}
+		{{> yield}}
+		{{> yield "actionbar"}}
+	</div>
+	{{> footer}}
+</template>

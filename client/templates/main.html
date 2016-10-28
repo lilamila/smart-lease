@@ -1,0 +1,61 @@
+<head>
+  <!-- <script src="js/jQuery.js"></script> -->
+<!--    <script src="web3.min..js"></script> -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>BlockLease</title>
+</head>
+
+<body>
+  <div class="container">
+  <h1>BlockLease</h1>
+  </div>
+  {{> nav}}
+  {{> navBar}}
+  {{> blockchainStatus}}
+  {{> createNewLease}}
+  {{> existingLeases}}
+  {{> footer}}
+</body>
+
+<template name="blockchainStatus">
+  <pre>{{currentBlock}}</pre>
+</template>
+
+<template name="navBar">
+<div class="container">
+  <button>Create new lease</button> 
+  <button>Manage Existing Lease</button> 
+  <button>Login</button>
+</div>
+</template>
+
+
+<template name="createNewLease">
+<div class="container">
+  <input name="name" type="text" placeholder="Landlord Name" autofocus required>
+  <input name="name" type="text" placeholder="Tenant Name" autofocus required>
+  <input name="name" type="text" placeholder="Rent Amount" autofocus required>
+  <button class="create">Create</button> 
+</div>
+</template>
+
+<!-- <template name="existingLeases">
+<div class="container">
+  <ul>
+  Testing
+  {{#each leases}}
+    {{physAddress}}
+    {{> lease}}
+  {{/each}}
+  </ul>
+</div>
+</template> -->
+
+<!-- <template name="lease">
+<div class="container">
+  <li>
+    {{physAddress}}
+  </li>
+</div>
+</template> -->
